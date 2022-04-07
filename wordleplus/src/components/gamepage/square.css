@@ -1,0 +1,25 @@
+.square {
+    height: 70px;
+    width: 70px;
+    border: 1px solid #bebebe;
+    color: Black;
+    background-color:white;
+  
+    font-family: "Franklin Gothic Medium";
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 16px;
+  
+    position:relative;
+    margin:3px;
+    padding-bottom: 16px;
+}
+
+@media screen and (max-width: 600px) {   
+    .square {
+        height: 55px;
+        width: 55px;
+        font-size: 30px;
+    }   
+}

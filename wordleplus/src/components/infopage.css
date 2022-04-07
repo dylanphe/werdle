@@ -1,0 +1,151 @@
+.nav-bar {
+  background-color: rgba(0,0,0,0.6);
+  /* Grid block for nav-items */ 
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  /* Fixed top position*/
+  position: fixed;
+  top: 0;
+  left: 0; 
+  right: 0;
+  height: 60px;
+}
+
+#nav-left{
+  display:flex;
+  flex-direction: row;
+  padding-left: 1%;
+}
+
+#nav-center{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  font-family: 'Impact';
+  font-size: 25px;
+}
+
+#nav-right{
+  display:flex;
+  flex-direction: row-reverse;
+  padding-right: 1%;
+}
+
+#i-button{
+  /* Text properties */
+  font-size: 120%;
+  font-weight: bold;  
+  font-family: "Times New Roman";
+  color: white;
+  background-color: transparent;
+  /* Shape properties */
+  cursor: pointer;
+  text-decoration: none;
+  /* Border properties */
+  border-color: transparent;
+}
+
+#i-button:hover{
+  color: orange;
+}
+
+#hamburger-button{
+  /* Text properties */
+  font-size: 120%;
+  font-weight: bold;  
+  font-family: "Times New Roman";
+  color: white;
+  background-color: transparent;
+  /* Shape properties */
+  cursor: pointer;
+  text-decoration: none;
+  /* Position properties 
+  position:fixed;
+  top: 1.5%;
+  left: 1%; */
+  /* Border properties */
+  border-color: transparent;
+}
+
+#hamburger-button:hover{
+  color: orange;
+}
+
+#theme-button{
+  /* Text properties */
+  font-size: 120%;     
+  background-color: transparent;
+  /* Shape properties */
+  cursor: pointer;
+  text-decoration: none;
+  /* Position properties 
+  position:fixed;
+  top: 1.5%;
+  right: 1%; */
+  /* Border properties */
+  border-color: transparent;
+}
+
+#info {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+#present {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium";
+  position:relative;
+  left: 20px;
+  top: 12px;
+}
+
+#title1 {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #45a049;
+  color: White;
+  background-color:#45a049;
+
+  font-family: "Franklin Gothic Medium";
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+
+  margin: 2px;
+
+}
+
+#fake {
+  height: 50px;
+  width: 50px;
+  border: 1px solid red;
+  color: White;
+  background-color:red;
+
+  font-family: "Franklin Gothic Medium";
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+
+  margin: 2px;
+
+}
+
+#block_display {
+  display:block;
+}
+
+.display_inline{
+  text-align: center;
+  position: relative;
+  top: 100px;
+  margin: 20px;
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  #nav-center{
+      font-size: 15px;
+  }
+}
