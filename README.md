@@ -1,10 +1,10 @@
-# CS-35L-Team-Project---C.A.N.N.T.
+# CS-35L-WORDLE PLUS
 
 ## Description
 
-FAKE WORDLE web app is an attempt by our team to recreate the famous WORDLE app officially run by The New York Times website. 
+WORDLE PLUS web app is an attempt by our team to recreate the famous WORDLE app officially run by The New York Times website. 
 
-In Fake Wordle, players have the option to play the game with either 4 letter word, 5 letter word or 6 letter word. Instruction is available to be viewed by simply clicking on the Instruction button appeared on top of the app.
+In Wordle+, players have the option to play the game with either 4 letter word, 5 letter word or 6 letter word. Instruction is available to be viewed by simply clicking on the Instruction button appeared on top of the app.
 
 Player must enter a name and click on one of the Difficulty button to play the game. After the game has been played, each player stats will be posted onto leaderboard, which include the rank and the score of each player. 
 
