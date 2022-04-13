@@ -1,80 +1,63 @@
-# werdle
-
-# A Kernel Seedling
+# CS-35L-Team-Project---C.A.N.N.T.
 
 ## Description
 
-A Kernel Module that add a file to /proc/count to show the number
-of the current running processes.
+FAKE WORDLE web app is an attempt by our team to recreate the famous WORDLE app officially run by The New York Times website. 
 
-## Building
+In Fake Wordle, players have the option to play the game with either 4 letter word, 5 letter word or 6 letter word. Instruction is available to be viewed by simply clicking on the Instruction button appeared on top of the app.
 
-The Kernel Module is built with C. Given the skeleton source code,
-the kernel module has been inserted with module_init() and exit with
-module_exit(). Since the data is output into /proc filesystem,
-a proc_create_single() macro is used to create an instance of
-proc_dir_entry during which the kernel module is inserted. Such
-entry should then be removed using proc_remove() when the module
-is unloaded. Regarding proc_remove(), only a single char pointer is
-allowed as an argument, therefore, a pointer of type proc_dir_entry
-should be created within the souce code in reference to the entry
-that was created so that it be properly removed. A proc_count
-function is defined and call during which the entry is created to
-count the number of running processes or tasks. In order to count
-the number of current running processes, a pointer of type task_struct
-is created to be refered to in the for_each_process() loop so that
-a 0 initialized variable is increment for each processes running.
-To output the result, a seq_printf() is used to output the integer
-along with a newline into the /proc/count file.
+Player must enter a name and click on one of the Difficulty button to play the game. After the game has been played, each player stats will be posted onto leaderboard, which include the rank and the score of each player. 
 
-## Running
+## Key Features
 
-### Ensure you're in the correct repository directory:
+  1. Dynamic Homepage with buttons allowing players to navigate through the webapp and enter their names. 
+  2. Upload Name entered by the player to the server side to keep track of the player stats.  
+  3. Game Instruction as a react-modal component that displays the instruction on how to play the game to players when they clicked on the Instruction button.
+  4. Dynamic Gamepage with a gameboard and a keyboard that changes colors when the player entered the guesses word. 
+  5. The ability for Player to use their manual keyboard to input the letter into the gameboard instead of using the provided keyboard onscreen.
+  6. The ability for Player to choose between playing the game with 4 letter words, 5 letter words or 6 letter words. The Word of the day will change based on the option you choose. 
+  7. Leaderboard Page that search through server side data and display dynamic data such as player names, ranks and scores based on their stats after each players played the game.  
+  8. The ability for Player to play the game as many time as they want unlike WORDLE, which only allow you to play once.
 
-##### `cd cs111`
 
-##### `cd lab0`
+## Running the Application
 
-### To run the Kernel Module (proc_count):
+Clone the Repository:
 
-Given proc_count.c being the source code of our kernel module, we need
-to compile the file using make command.
+##### `git clone https://github.com/trungvu08/CS-35L-Team-Project---C.A.N.N.T..git CANNT`
 
-##### `make`
+##### `cd CANNT`
 
-After the source code is compiled along with its dependencies,
-We need to insert our module into the kernel.  
+##### `npm install`
 
-##### `sudo insmod proc_count.ko`
+### To run the Frontend (React):
 
-Now that the kernel module is up and running, we can use "cat" command
-to show the number of the current running processes on your machine.
+##### `cd frontend`
 
-##### `cat /proc/count`
+##### `npm install react-scripts`
 
-The command above should output an integer showing the number of running
-processes following a new line.
+##### `npm start`
 
-## Cleaning Up
+The app should be accessible at
+[http://localhost:3000](http://localhost:3000) so you can view it in the browser.
 
-Execute the following commands in the terminal.
+### To setup the Backend:
 
-### Remove your module from the kernel:
+##### Open a second command line to run the backend server.
 
-##### `sudo rmmod proc_count`
+##### `cd server`
 
-### To check whether the module is properly removed:
+##### Create a .env file in the server folder. Add your mongodb uri to the .env file (which can be created at https://cloud.mongodb.com/) like the following:
+`MONGO_DB_URI=<YOUR_MONGO_DB_URI_HERE>`
 
-##### `lsmod | grep "proc_count"`
+##### Replace <YOUR_MONGO_DB_URI_HERE> with the MONGO_DB_URI you obtained from the database you created at https://cloud.mongodb.com/
 
-***lsmod is a command used to display status of modules in Linux kernel.
+### Afterwards, to run the backend (NodeJS and MongoDB):
 
-### To clean up the compiled program:
+##### `npm install`
 
-##### `make clean`
+##### `nodemon start`
 
-## Testing
+This will run the backend on [http://localhost:5000](http://localhost:5000)
 
-Kernel: Linux release 5.14.8-arch1-1
-
-Testing is done with the given test_lab0.py source code with common test
+Once both the front end and backend are running, the application will be fully useable.
