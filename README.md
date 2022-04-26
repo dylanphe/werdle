@@ -41,23 +41,4 @@ Clone the Repository:
 The app should be accessible at
 [http://localhost:3000](http://localhost:3000) so you can view it in the browser.
 
-### To setup the Backend:
 
-##### Open a second command line to run the backend server.
-
-##### `cd server`
-
-##### Create a .env file in the server folder. Add your mongodb uri to the .env file (which can be created at https://cloud.mongodb.com/) like the following:
-`MONGO_DB_URI=<YOUR_MONGO_DB_URI_HERE>`
-
-##### Replace <YOUR_MONGO_DB_URI_HERE> with the MONGO_DB_URI you obtained from the database you created at https://cloud.mongodb.com/
-
-### Afterwards, to run the backend (NodeJS and MongoDB):
-
-##### `npm install`
-
-##### `nodemon start`
-
-This will run the backend on [http://localhost:5000](http://localhost:5000)
-
-Once both the front end and backend are running, the application will be fully useable.
