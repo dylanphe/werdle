@@ -26,7 +26,7 @@ function App() {
     <ThemeProvider theme={themeMode}>
       <>
         <GlobalStyles />
-        <BrowserRouter>
+        <BrowserRouter basename={"/werdle"}>
         <Routes>
           <Route path = "/" element={<Mainpage />} />
           <Route path = "4" element={<Gamepage4 />} />
