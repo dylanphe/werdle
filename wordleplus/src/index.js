@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import reportWebVitals from './reportWebVitals';
+import './components/fonts/century-gothic.TTF';
+import './components/fonts/franklin-gothic-medium.ttf';
+import './components/fonts/impact.ttf';
+
 
 ReactDOM.render(
   <React.StrictMode>

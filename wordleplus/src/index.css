@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Franklin Gothic Medium";
+  src: local("Franklin Gothic Medium"),
+   url("./components/fonts/franklin-gothic-medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Century Gothic" ;
+  src: local("Century Gothic"),
+   url("./components/fonts/century-gothic.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "Impact";
+  src: local("Impact"),
+   url("./components/fonts/impact.ttf") format("truetype");
+}

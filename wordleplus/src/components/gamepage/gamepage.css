@@ -165,8 +165,8 @@
 
 
 #Gamegrid {
-position:absolute;
-top: 90px;
+position:relative;
+top: 70px;
 margin-right: auto;
 margin-left: auto;
 left: 0px;
@@ -177,7 +177,7 @@ right: 0px;
 #Keys {
 /* Centering the Keyboard to the bottom of the page */
 position:absolute;
-bottom:10px;
+bottom:5px;
 margin-right: auto;
 margin-left: auto;
 left: 0px;
