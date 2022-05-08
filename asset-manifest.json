@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/werdle/static/css/main.602c8abb.css",
-    "main.js": "/werdle/static/js/main.67f39b2b.js",
+    "main.css": "/werdle/static/css/main.4c382e2c.css",
+    "main.js": "/werdle/static/js/main.9aacb7c8.js",
     "static/js/787.7047af67.chunk.js": "/werdle/static/js/787.7047af67.chunk.js",
-    "static/media/century-gothic.ttf": "/werdle/static/media/century-gothic.b194aa2bd524e2c973f7.ttf",
     "static/media/impact.ttf": "/werdle/static/media/impact.0294f8285a2493417c09.ttf",
-    "static/media/franklin-gothic-medium.ttf": "/werdle/static/media/franklin-gothic-medium.70fe52016259b73c607f.ttf",
+    "static/media/franklin-gothic-medium.ttf": "/werdle/static/media/franklin-gothic-medium.ee0aa09b70ef89a32369.ttf",
+    "static/media/century-gothic.ttf": "/werdle/static/media/century-gothic.861d22617fdfce5fc922.ttf",
     "index.html": "/werdle/index.html",
-    "main.602c8abb.css.map": "/werdle/static/css/main.602c8abb.css.map",
-    "main.67f39b2b.js.map": "/werdle/static/js/main.67f39b2b.js.map",
+    "main.4c382e2c.css.map": "/werdle/static/css/main.4c382e2c.css.map",
+    "main.9aacb7c8.js.map": "/werdle/static/js/main.9aacb7c8.js.map",
     "787.7047af67.chunk.js.map": "/werdle/static/js/787.7047af67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.602c8abb.css",
-    "static/js/main.67f39b2b.js"
+    "static/css/main.4c382e2c.css",
+    "static/js/main.9aacb7c8.js"
   ]
 }
