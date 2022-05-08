@@ -244,7 +244,7 @@ function Gamepage4() {
 
         <div className='nav-bar'>
           <div id='nav-left'>
-            <button id = "hamburger-button" onClick={() => navigate('/')}> ⮌ </button>
+            <button id = "hamburger-button" onClick={() => navigate('/')}> ← </button>
             <button id = "i-button" onClick={() => setShow(true)}> ⓘ </button>
           </div>
           <div id='nav-center'>

@@ -10,10 +10,7 @@
     font-weight: bold;
     text-align: center;
     padding-bottom: 16px;
-  
-    position:relative;
     margin:3px;
-    padding-bottom: 16px;
 }
 
 @media screen and (max-width: 600px) {   

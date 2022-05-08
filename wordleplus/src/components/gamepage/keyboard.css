@@ -15,7 +15,6 @@
     cursor: pointer;
     text-decoration: none;
     /* Position properties */
-    position: relative;
     margin:3px;
     width:42px;
     height:54px;
@@ -64,19 +63,18 @@
     }
 }
 
-@media screen and (max-height: 600px) {      
+@media screen and (max-width: 400px) {      
     .letters {
         /* Text properties */
-        font-size: 14px;
-        width:33px;
-        height:45px;
+        font-size: 8px;
+        width:30px;
+        height:37px;
     }
     .letterEnter {
-        width:45px;
+        width:42px;
     }
 
     .letterBkspc {
-        top:0; 
-        width:53px;  
+        width:42px;  
     }
 }
