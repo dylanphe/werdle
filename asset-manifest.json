@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/werdle/static/css/main.853ef6c9.css",
-    "main.js": "/werdle/static/js/main.8761e081.js",
+    "main.css": "/werdle/static/css/main.22cf60d9.css",
+    "main.js": "/werdle/static/js/main.a5f50dc1.js",
     "static/js/787.7047af67.chunk.js": "/werdle/static/js/787.7047af67.chunk.js",
+    "static/media/century-gothic.ttf": "/werdle/static/media/century-gothic.b194aa2bd524e2c973f7.ttf",
+    "static/media/franklin-gothic-medium.ttf": "/werdle/static/media/franklin-gothic-medium.70fe52016259b73c607f.ttf",
     "index.html": "/werdle/index.html",
-    "main.853ef6c9.css.map": "/werdle/static/css/main.853ef6c9.css.map",
-    "main.8761e081.js.map": "/werdle/static/js/main.8761e081.js.map",
+    "main.22cf60d9.css.map": "/werdle/static/css/main.22cf60d9.css.map",
+    "main.a5f50dc1.js.map": "/werdle/static/js/main.a5f50dc1.js.map",
     "787.7047af67.chunk.js.map": "/werdle/static/js/787.7047af67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.853ef6c9.css",
-    "static/js/main.8761e081.js"
+    "static/css/main.22cf60d9.css",
+    "static/js/main.a5f50dc1.js"
   ]
 }
