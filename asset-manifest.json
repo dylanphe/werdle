@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/werdle/static/css/main.0b33d476.css",
+    "main.css": "/werdle/static/css/main.e391edd7.css",
     "main.js": "/werdle/static/js/main.e43a376b.js",
     "static/js/787.7047af67.chunk.js": "/werdle/static/js/787.7047af67.chunk.js",
     "static/media/impact.ttf": "/werdle/static/media/impact.0294f8285a2493417c09.ttf",
     "static/media/franklin-gothic-medium.ttf": "/werdle/static/media/franklin-gothic-medium.ee0aa09b70ef89a32369.ttf",
     "static/media/century-gothic.TTF": "/werdle/static/media/century-gothic.861d22617fdfce5fc922.TTF",
     "index.html": "/werdle/index.html",
-    "main.0b33d476.css.map": "/werdle/static/css/main.0b33d476.css.map",
+    "main.e391edd7.css.map": "/werdle/static/css/main.e391edd7.css.map",
     "main.e43a376b.js.map": "/werdle/static/js/main.e43a376b.js.map",
     "787.7047af67.chunk.js.map": "/werdle/static/js/787.7047af67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b33d476.css",
+    "static/css/main.e391edd7.css",
     "static/js/main.e43a376b.js"
   ]
 }
