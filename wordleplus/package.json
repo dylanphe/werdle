@@ -2,7 +2,7 @@
   "name": "wordleplus",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dylanphe.github.io",
+  "homepage": "https://dylanphe.github.io/werdle",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
@@ -32,6 +32,7 @@
       "react-app/jest"
     ]
   },
+  "proxy": "http://localhost:3000",
   "browserslist": {
     "production": [
       ">0.2%",
