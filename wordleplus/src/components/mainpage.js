@@ -147,7 +147,7 @@ function Mainpage() {
             <input type="text" name = "playername" value={playerName} onChange={(pname) => setPlayerName(pname.target.value)} placeholder="Enter Your Name Here!"/>
             <button id="play" type="submit" onClick={handlePlay}>PLAY</button>
           </form>
-          <button id = "info-b" onClick={() => navigate('Infopage')}> || DEVELOPERS || </button>
+          <a href="https://dylanphe.github.io/" target="_blank" rel="noopener noreferrer"><button id = "info-b"> || DEVELOPERS || </button></a>
         </div>
     </ThemeProvider>
   );
