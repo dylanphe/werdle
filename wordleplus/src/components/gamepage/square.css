@@ -8,7 +8,6 @@
     font-family: "Franklin Gothic Medium";
     font-size: 45px;
     font-weight: bold;
-    text-align: center;
     padding-bottom: 16px;
     margin:3px;
 }
@@ -27,4 +26,13 @@
         width: 55px;
         font-size: 20px;
     }   
+}
+
+@media screen and (max-width: 1280px) and (max-height: 700px) {      
+
+    .square {
+        height: 60px;
+        width: 60px;
+        font-size: 25px;
+    } 
 }

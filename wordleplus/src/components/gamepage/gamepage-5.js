@@ -30,32 +30,32 @@ function Gamepage5() {
     [null, null, null, null, null],
   ]);
   var keyDict = {};
-  keyDict["A"] = "lightgray";
-  keyDict["B"] = "lightgray";
-  keyDict["C"] = "lightgray";
-  keyDict["D"] = "lightgray";
-  keyDict["E"] = "lightgray";
-  keyDict["F"] = "lightgray";
-  keyDict["G"] = "lightgray";
-  keyDict["H"] = "lightgray";
-  keyDict["I"] = "lightgray";
-  keyDict["J"] = "lightgray";
-  keyDict["K"] = "lightgray";
-  keyDict["L"] = "lightgray";
-  keyDict["M"] = "lightgray";
-  keyDict["N"] = "lightgray";
-  keyDict["O"] = "lightgray";
-  keyDict["P"] = "lightgray";
-  keyDict["Q"] = "lightgray";
-  keyDict["R"] = "lightgray";
-  keyDict["S"] = "lightgray";
-  keyDict["T"] = "lightgray";
-  keyDict["U"] = "lightgray";
-  keyDict["V"] = "lightgray";
-  keyDict["W"] = "lightgray";
-  keyDict["X"] = "lightgray";
-  keyDict["Y"] = "lightgray";
-  keyDict["Z"] = "lightgray";
+  keyDict[" A "] = "lightgray";
+  keyDict[" B "] = "lightgray";
+  keyDict[" C "] = "lightgray";
+  keyDict[" D "] = "lightgray";
+  keyDict[" E "] = "lightgray";
+  keyDict[" F "] = "lightgray";
+  keyDict[" G "] = "lightgray";
+  keyDict[" H "] = "lightgray";
+  keyDict[" I "] = "lightgray";
+  keyDict[" J "] = "lightgray";
+  keyDict[" K "] = "lightgray";
+  keyDict[" L "] = "lightgray";
+  keyDict[" M "] = "lightgray";
+  keyDict[" N "] = "lightgray";
+  keyDict[" O "] = "lightgray";
+  keyDict[" P "] = "lightgray";
+  keyDict[" Q "] = "lightgray";
+  keyDict[" R "] = "lightgray";
+  keyDict[" S "] = "lightgray";
+  keyDict[" T "] = "lightgray";
+  keyDict[" U "] = "lightgray";
+  keyDict[" V "] = "lightgray";
+  keyDict[" W "] = "lightgray";
+  keyDict[" X "] = "lightgray";
+  keyDict[" Y "] = "lightgray";
+  keyDict[" Z "] = "lightgray";
   const [show, setShow] = useState(false);
   const [showWin, setShowWin] = useState(false);
   const [showLoss, setShowLoss] = useState(false);
@@ -254,13 +254,14 @@ function Gamepage5() {
             <Toggle theme={theme} toggleTheme={toggleTheme} />
           </div>
         </div>
+        <div>
+          <div id="Gamegrid">
+            <Gameboard letters={letters} mode="5"/>
+          </div>
 
-        <div id="Gamegrid">
-          <Gameboard letters={letters} mode="5"/>
-        </div>
-
-        <div id="Keys">
-          <Keyboard handleClick={handleClick} handleBackspace={handleBackspace} handleEnter={handleEnter} curRow={curRow} curCol={curCol}/>
+          <div id="Keys">
+            <Keyboard handleClick={handleClick} handleBackspace={handleBackspace} handleEnter={handleEnter} curRow={curRow} curCol={curCol}/>
+          </div>
         </div>
 
         </div>

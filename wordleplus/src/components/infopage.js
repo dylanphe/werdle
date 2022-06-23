@@ -55,28 +55,7 @@ function Infopage() {
         <div className= "display_inline">
           <p id = "text box">
             Chandaralong Phe <br/>
-            "C" <br/>
             (dylanphe@g.ucla.edu)
-          </p>
-          <p id = "text box">
-            Lorn Hin Adrian Lam <br/>
-            "A" <br/>
-            (adrianlam@g.ucla.edu)
-          </p>
-          <p id = "text box">
-            Nicholas Hamakami <br/>
-            "N" <br/>
-            (nhamakami@g.ucla.edu)
-          </p>
-          <p id = "text box">
-            Nathaniel Webster  <br/>
-            "N" <br/>
-            (natewebsterm@g.ucla.edu)
-          </p>
-          <p id = "text box">
-            Trung Vu <br/>
-            "T" <br/>
-            (trungvu08@g.ucla.edu)
           </p>
         </div>
       </div>
