@@ -24,7 +24,7 @@ Player must enter a name and click on one of the Difficulty button to play the g
 
 Clone the Repository:
 
-##### `git clone https://github.com/trungvu08/CS-35L-Team-Project---C.A.N.N.T..git CANNT`
+##### `git clone`
 
 ##### `cd CANNT`
 
@@ -41,4 +41,5 @@ Clone the Repository:
 The app should be accessible at
 [http://localhost:3000](http://localhost:3000) so you can view it in the browser.
 
+APP is accesible through https://dylanphe.github.io/werdle/
 
