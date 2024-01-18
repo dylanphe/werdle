@@ -1,6 +1,7 @@
 import React from 'react';
 import './gamepage.css';
 import { useState } from 'react';
+import {useRef } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import { useNavigate } from 'react-router-dom';
 import Keyboard from './keyboard';
@@ -19,6 +20,14 @@ let oldCorrectWord;
 
 function Gamepage4() {
   // definitions of state
+  const keysRef = useRef(null);
+  // Callback ref to focus the element immediately after rendering
+  const setFocus = (element) => {
+    if (element) {
+      element.focus();
+    }
+  };
+  
   const [curRow, setCurRow] = useState(0);
   const [curCol, setCurCol] = useState(0);
   const [letters, setLetters] = useState([
@@ -186,7 +195,7 @@ function Gamepage4() {
   // look for key pressed down and trigger keypress handler event [tabIndex necessary]
     <ThemeProvider theme={themeMode}>
     <GlobalStyles />
-      <div tabIndex="0" onKeyDown={handleKeypress}>
+      <div>
         <Modal className='inst-modal' size ="lg" show={show} onHide={() => setShow(false)}>
           <Modal.Header closeButton>
               <Modal.Title>HOW TO PLAY</Modal.Title>
@@ -254,15 +263,20 @@ function Gamepage4() {
             <Toggle theme={theme} toggleTheme={toggleTheme} />
           </div>
         </div>
-
         <div id="Gamegrid">
           <Gameboard letters={letters} mode="4"/>
         </div>
-
-        <div id="Keys">
+      </div>
+        <div 
+          id="Keys"
+          tabIndex={0}
+          onKeyDown={handleKeypress} 
+          ref={(node) => { 
+            keysRef.current = node; 
+            setFocus(node);
+          }}
+        >
           <Keyboard handleClick={handleClick} handleBackspace={handleBackspace} handleEnter={handleEnter} curRow={curRow} curCol={curCol}/>
-        </div>
-
         </div>
     </ThemeProvider>
     );

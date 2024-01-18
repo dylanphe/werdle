@@ -168,8 +168,8 @@
 padding-top: 70px;
 margin-right: auto;
 margin-left: auto;
+pointer-events: none;
 }
-
 
 #Keys {
 /* Centering the Keyboard to the bottom of the page */
@@ -179,4 +179,6 @@ margin-right: auto;
 margin-left: auto;
 left: 0px;
 right: 0px;
+outline: 0.1px solid #363537;
 }
+

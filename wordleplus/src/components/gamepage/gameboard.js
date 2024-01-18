@@ -15,7 +15,7 @@ function Gameboard(props) {
     function render() {
         if (props.mode === '5') {
             return (
-                <div id = "gameboard">
+            <div id = "gameboard">
                 <span id="block_display">
                     {renderSquare(0, 0)}
                     {renderSquare(0, 1)}

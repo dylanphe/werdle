@@ -27,6 +27,10 @@ export const GlobalStyles = createGlobalStyle`
     color: white;
   }
 
+  #Keys {
+    outline: 0.1px solid ${({ theme }) => theme.body};
+  }
+
   .game-mode button{
     background-color: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
